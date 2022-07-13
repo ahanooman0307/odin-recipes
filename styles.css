@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: red;
+    background-color: black;
+    border-style: groove;
+    border-color: rgb(25, 0, 255);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+img{
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border: 8px ridge blue;  
+    padding: 5px;  
+}
+
+.parent{
+    text-align: center;
+}
+.parent > ul{
+    display: inline-block;
+}
+
+a,
+p{
+    display: block;
+    text-align: center;
+    
+}
+
+body{
+    background-color: aqua;
+}
+
+#red{
+    color: red;
+}
