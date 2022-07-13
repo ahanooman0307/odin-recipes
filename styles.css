@@ -37,3 +37,17 @@ body{
 #red{
     color: red;
 }
+
+.border{
+    display: block;
+    border: 5px solid red
+}
+
+#top{
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+#bottom{
+    border-top: 0px;
+    margin-top: 0px;
+}
